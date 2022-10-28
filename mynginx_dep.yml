@@ -25,15 +25,6 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: myapp
-spec:
-  selector:
-    app: myapp
-  ports:
-  - port: <Port>
-    targetPort: <Target Port>
-
-metadata:
   name: mynginx-svc
 spec:
   selector:
