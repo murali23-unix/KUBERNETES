@@ -21,3 +21,15 @@ spec:
             cpu: "500m"
         ports:
         - containerPort: 80
+---
+apiVersion: apps/v1
+kind: apiVersion: v1
+kind: Service
+metadata:
+  name: mynginx-svc
+spec:
+  selector:
+    app: mynginx
+  ports:
+  - protocol: TCP
+    port: 80
