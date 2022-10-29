@@ -27,10 +27,11 @@ kind: Service
 metadata:
   name: mynginx-svc
 spec:
+  type: NodePort
   selector:
     app: mynginx
   ports:
   - protocol: TCP
     port: 80
     targetPort: 80
-    nodePort: 8080
+    nodePort: 30300
