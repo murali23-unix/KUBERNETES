@@ -27,6 +27,7 @@ kind: Service
 metadata:
   name: myapp-svc
 spec:
+  type: NodePort
   selector:
     app: myapp
   ports:
