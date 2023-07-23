@@ -1,0 +1,7 @@
+$ minikube start
+$ minikube stop
+### Increasing CPU and Memory in minikube
+$ minikube config set memory 8192
+$ minikube config set cpus 4
+$ minikube delete
+$ minikube start
