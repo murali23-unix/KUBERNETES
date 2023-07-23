@@ -5,3 +5,6 @@ $ minikube config set memory 8192
 $ minikube config set cpus 4
 $ minikube delete
 $ minikube start
+#### NodPort Access
+kubectl get svc
+minikube service <service-name>
