@@ -8,3 +8,4 @@ $ minikube start
 #### NodPort Access
 kubectl get svc
 minikube service <service-name>
+minikube start --memory 8192 --cpus 2
